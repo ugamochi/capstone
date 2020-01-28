@@ -1,0 +1,120 @@
+html {
+  font-size: 16px;
+  background-color: #fafafa;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.button {
+  padding: 8px;
+  background-color: burlywood;
+  color: white;
+  width: auto;
+  font-size: 1.5rem;
+  font-weight: normal;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-transform: uppercase;
+}
+
+.left-aligned {
+  text-align: left;
+}
+
+.right-aligned {
+  text-align: right;
+}
+
+/*top menu styles start*/
+
+.top-menu {
+  display: flex;
+  height: 64px;
+  padding: 16px 24px;
+  background-color: lightpink;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-menu-logo {
+  display: flex;
+  align-items: center;
+}
+
+.menu-items {
+  display: flex;
+  align-items: center;
+}
+
+.menu-item {
+  margin: 0 16px;
+}
+
+/*top menu styles end*/
+
+/*top banner styles start */
+
+.top-banner {
+  background-color: lightgrey;
+  padding: 32px 24px;
+  display: flex;
+  overflow: auto;
+}
+
+.banner-pic {
+  margin-right: 24px;
+  width: 70%;
+}
+
+.banner-pic img {
+  display: flex;
+  width: 100%;
+}
+
+.banner-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 30%;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.banner-text .media-heading {
+  margin: 0 0 24px;
+}
+
+/* footer start*/
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px 24px 60px;
+}
+
+.footer-left {
+  display: flex;
+  justify-content: flex-start;
+  width: 50%
+}
+
+.footer-right {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%
+}
+
+.footer-item {
+  margin: 0 16px;
+}
+
+/* footer end*/
